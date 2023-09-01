@@ -3,6 +3,10 @@
 Jarvis ist ein konsolen Assistent mit dem man eine Unterhaltung über alles mögliche führen kann.
 Folgende Features sind enthalten und können über die config.json eingestellt werden:
 
+
+https://github.com/themw123/jarvis/assets/80266862/f6244ed1-cf58-48be-a11a-cecd951c586d
+
+
 - Voice To Text 📝:
     - Whisper(api key erforderlich, kostet)
     - Google(ohne key, kostenlos)
