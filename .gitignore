@@ -150,3 +150,15 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+chat_log.txt
+id_log.txt
+.chatgpt
+config.py
+config.json
+database.db
+Scripts/
+Include/
+Lib/
+pyvenv.cfg
+share/
+libs/cx_Logging.lib
