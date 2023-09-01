@@ -12,7 +12,7 @@ https://github.com/themw123/jarvis/assets/80266862/f6244ed1-cf58-48be-a11a-cecd9
     - Google(ohne key, kostenlos)
 
 - response AI 🧠:
-    - ChatGPT
+    - ChatGPT(official api, kostet oder private api kostenlos)
 
 - Text to Speech 💬:
     - Elevenlabs(api key erforderlich, kostet. input_output_stream oder output_stream)
