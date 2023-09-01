@@ -14,7 +14,7 @@ Folgende Features sind enthalten und können über die config.json eingestellt w
     - ChatGPT(official api, kostet oder private api kostenlos)
 
 - Text to Speech 💬:
-    - Elevenlabs(api key erforderlich, kostet. input_output_stream oder output_stream)
+    - Elevenlabs(api key erforderlich, kostet. input_output_stream oder output_stream) -> Proxy support✔️
     - Google(ohne key, kostenlos. stream oder normal)
 
 Best practise hat man mit Whisper und Elevenlabs(input_output_stream -> Text von ChatGPT wird während der Generierung an Elevenlabs geschickt und währenddessen step by step abgespielt mittels WebSocket).
