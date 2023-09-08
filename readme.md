@@ -2,7 +2,9 @@
 
 Jarvis ist ein Konsolen-Assistent mit dem man eine Unterhaltung über alles mögliche führen kann.
 
-https://github.com/themw123/jarvis/assets/80266862/f6244ed1-cf58-48be-a11a-cecd951c586d
+
+https://github.com/themw123/jarvis/assets/80266862/4df23ed3-3ea9-4900-b2dc-51526ecb0b2f
+
 
 Folgende Features sind enthalten und können über die config.json eingestellt werden:
 
