@@ -13,7 +13,8 @@
             "api_key": "sk-xxx"
         },
         "private": {
-            "description": "Google or Apple account is not supporte.",
+            "description": "For proxy_server: empty or custom like https://ai.fakeopen.com/api/. For login: Google or Apple account is not supportet.",
+            "proxy_server": "",
             "email": "xxx@gmail.com",
             "password": "xxx",
             "memory": {

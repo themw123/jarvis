@@ -66,7 +66,7 @@ class Chatgpt:
             self.private_chatbot = Chatbot(config={
                 "email": self.chatgpt_conf["private"]["email"],
                 "password": self.chatgpt_conf["private"]["password"],
-            },conversation_id=id)
+            },base_url=self.chatgpt_conf["private"]["proxy_server"] ,conversation_id=id)
             #mittels self.private_chatbot.login() neuen access_token erhalten wenn abgelaufen ist
 
         except:
