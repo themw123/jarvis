@@ -110,7 +110,7 @@ class Chatgpt:
                 chunk = data["message"]
                 #remove string old_chunk in chunk
                 chunk = chunk.replace(old_chunk, "")
-                old_chunk += chunk
+                old_chunk = data["message"]
                 count += 1
                 print(chunk, end="", flush=True)
 
@@ -170,11 +170,11 @@ class Chatgpt:
                 if count == 0:
                     #warte sound abspielen
                     Player.play_wait()
-                    
+               
                 chunk = data["message"]
                 #remove string old_chunk in chunk
                 chunk = chunk.replace(old_chunk, "")
-                old_chunk += chunk
+                old_chunk = data["message"]
                 count += 1
                 print(chunk, end="", flush=True)
                 yield chunk
