@@ -34,7 +34,7 @@ Die Programme müssen über Umgebungsvariablen verfügbar gemacht werden.
 
 Update:
 
-Da die zugrunde liegende library von ChatGPT nicht mehr gewartet wird, muss nun der access_token selber gesetzt werden in:
+Da die zugrunde liegende private api von ChatGPT nicht mehr gewartet wird, muss nun der access_token selber gesetzt werden in:
 ```
  C:\Users\%USERNAME%\.config\revChatGPT\cache.json
 ```
