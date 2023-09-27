@@ -13,7 +13,7 @@
             "api_key": "sk-xxx"
         },
         "private": {
-            "description": "For proxy_server: empty = https://bypass.churchless.tech/ or custom like https://ai.fakeopen.com/api/. For login: Google or Apple account is not supportet.",
+            "description": "Get access_token from: https://chat.openai.com/api/auth/session For proxy_server: empty = https://bypass.churchless.tech/ or custom like https://ai.fakeopen.com/api/.",
             "proxy_server": "https://ai.fakeopen.com/api/",
             "email": "xxx@gmail.com",
             "access_token": "xxx",
