@@ -38,6 +38,10 @@ Da die zugrunde liegende library von ChatGPT nicht mehr gewartet wird, muss nun 
 ```
  C:\Users\%USERNAME%\.config\revChatGPT\cache.json
 ```
+Den Token bekommt man unter
+```
+https://chat.openai.com/api/auth/session
+```
 Der Token ist für rund einen Monat gültig und muss dann erneut gesetzt werden.
 
 
