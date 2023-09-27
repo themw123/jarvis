@@ -16,7 +16,7 @@
             "description": "For proxy_server: empty = https://bypass.churchless.tech/ or custom like https://ai.fakeopen.com/api/. For login: Google or Apple account is not supportet.",
             "proxy_server": "https://ai.fakeopen.com/api/",
             "email": "xxx@gmail.com",
-            "password": "xxx",
+            "access_token": "xxx",
             "memory": {
                 "description": "If memory is false it will generate always a new conversation with every request you make. If memory is true and Id is empty it will generate a new conversation and at the next restart it will remember the conversation.",
                 "active": true,

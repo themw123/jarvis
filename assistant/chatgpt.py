@@ -62,12 +62,17 @@ class Chatgpt:
 
     def __auth_private(self, id):
         try:
-            #logt sich nur neu ein wenn access_token nicht vorhanden ist
+            '''
+            old
+            logt sich nur neu ein wenn access_token nicht vorhanden ist
             self.private_chatbot = Chatbot(config={
                 "email": self.chatgpt_conf["private"]["email"],
                 "password": self.chatgpt_conf["private"]["password"],
             },base_url=self.chatgpt_conf["private"]["proxy_server"] ,conversation_id=id)
-            #mittels self.private_chatbot.login() neuen access_token erhalten wenn abgelaufen ist
+            '''
+            self.private_chatbot = Chatbot(config={
+                "access_token": self.chatgpt_conf["private"]["access_token"]
+            },base_url=self.chatgpt_conf["private"]["proxy_server"] ,conversation_id=id)
 
         except:
             raise Exception("ChatGPT: Private API, authentication failed")
