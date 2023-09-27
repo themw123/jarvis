@@ -35,5 +35,9 @@ Die Programme müssen über Umgebungsvariablen verfügbar gemacht werden.
 Update:
 
 Da die zugrunde liegende private api von ChatGPT nicht mehr gewartet wird, muss nun der access_token selber gesetzt werden in der config.json da das automatische login mit Benutzername und Passwort nicht mehr funktioniert.
+Den Token bekommt man unter
+```
+https://chat.openai.com/api/auth/session
+```
 
 
