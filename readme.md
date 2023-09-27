@@ -29,3 +29,15 @@ Es müssen folgende programme installiert werden, damit der Asssistent läuft:
 
 Die Programme müssen über Umgebungsvariablen verfügbar gemacht werden.
 
+
+
+
+Update:
+
+Da die zugrunde liegende library von ChatGPT nicht mehr gewartet wird, muss nun der access_token selber gesetzt werden in:
+```
+ C:\Users\%USERNAME%\.config\revChatGPT\cache.json
+```
+Der Token ist für rund einen Monat gültig und muss dann erneut gesetzt werden.
+
+
