@@ -34,14 +34,6 @@ Die Programme müssen über Umgebungsvariablen verfügbar gemacht werden.
 
 Update:
 
-Da die zugrunde liegende private api von ChatGPT nicht mehr gewartet wird, muss nun der access_token selber gesetzt werden in:
-```
- C:\Users\%USERNAME%\.config\revChatGPT\cache.json
-```
-Den Token bekommt man unter
-```
-https://chat.openai.com/api/auth/session
-```
-Der Token ist für rund einen Monat gültig und muss dann erneut gesetzt werden.
+Da die zugrunde liegende private api von ChatGPT nicht mehr gewartet wird, muss nun der access_token selber gesetzt werden in der config.json da das automatische login mit Benutzername und Passwort nicht mehr funktioniert.
 
 
